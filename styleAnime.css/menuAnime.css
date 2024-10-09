@@ -1,0 +1,40 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Altere min-width para width */
+}
+
+#menu > div {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    flex-wrap: wrap; /* Permite que as divs quebrem para a linha abaixo em telas menores */
+}
+
+.anime-princip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 50%; /* Ajusta a largura para que três divs caibam em uma linha */
+    max-width: 300px; /* Define um tamanho máximo para as divs */
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 12px 4px rgba(94, 93, 93, 0.762);
+}
+
+.anime-imagem {
+    width: 100%; /* A imagem se adapta à largura da div */
+    height: 180px; /* Mantém a proporção da imagem */
+    border-radius: 10px;
+}
+
+.anime-princip video {
+    width: 100%; /* O vídeo se adapta à largura da div */
+    height: auto; /* Mantém a proporção do vídeo */
+    border-radius: 10px;
+}

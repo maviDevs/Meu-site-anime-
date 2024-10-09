@@ -1,0 +1,58 @@
+header{
+    width: 100%;
+    padding: 28px 8%;
+
+}
+
+#navnime{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cat_logo{
+    font-size: 28px;
+    color: deeppink;
+}
+
+#nav_anilist{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.ani-item a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: 600;
+
+}
+
+.nav-item.active a{
+    color: blue;
+    border-bottom: 3px;
+
+}
+
+.search-bar {
+    
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+ .search-bar input[type="submit"] {
+    background-color: #fff;
+    color: #E91E63;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
